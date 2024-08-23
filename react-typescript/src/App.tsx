@@ -1,9 +1,10 @@
 import './App.css';
-import Heading from './component/Heading';
-import { Button } from './component/Button';
-import { Input } from './component/Input';
-import Oscar from './component/Oscar';
-import Status from './component/Status';
+import Style from './component/Style';
+// import Heading from './component/Heading';
+// import { Button } from './component/Button';
+// import { Input } from './component/Input';
+// import Oscar from './component/Oscar';
+// import Status from './component/Status';
 // import Greet from './component/Greet';
 // import Person from './component/Person';
 // import PersonList from './component/PersonList';
@@ -23,12 +24,13 @@ function App() {
       {/* <Greet name={"Vivek"} />
       <Person name={name1} />
       <PersonList name={name2} /> */}
-      <Status status='loading'/>
+      {/* <Status status='loading'/>
       <Oscar>
         <Heading>Oscar goes to Leonardo Dicaprio!</Heading>
-      </Oscar>
-      <Button handleClick={(event) => { console.log(event)}}/>
-      <Input handleChange={(event) => {console.log(event)}} value={''} />
+      </Oscar> */}
+      {/* <Button handleClick={(event) => { console.log(event)}}/>
+      <Input handleChange={(event) => {console.log(event)}} value={''} /> */}
+      <Style style={{border:'1px solid blue', padding: '1rem'}}/>
     </div>
   );
 }
