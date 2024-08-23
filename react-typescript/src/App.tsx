@@ -1,5 +1,6 @@
 import './App.css';
-import Style from './component/Style';
+// import Style from './component/Style';
+import User from './component/User';
 // import Heading from './component/Heading';
 // import { Button } from './component/Button';
 // import { Input } from './component/Input';
@@ -30,7 +31,8 @@ function App() {
       </Oscar> */}
       {/* <Button handleClick={(event) => { console.log(event)}}/>
       <Input handleChange={(event) => {console.log(event)}} value={''} /> */}
-      <Style style={{border:'1px solid blue', padding: '1rem'}}/>
+      {/* <Style style={{border:'1px solid blue', padding: '1rem'}}/> */}
+      <User />
     </div>
   );
 }
