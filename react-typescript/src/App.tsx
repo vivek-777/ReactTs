@@ -1,6 +1,6 @@
 import './App.css';
 // import Style from './component/Style';
-import User from './component/User';
+import User from './component/state/User';
 // import Heading from './component/Heading';
 // import { Button } from './component/Button';
 // import { Input } from './component/Input';
