@@ -1,5 +1,7 @@
 import './App.css';
 import Heading from './component/Heading';
+import { Button } from './component/Button';
+import { Input } from './component/Input';
 import Oscar from './component/Oscar';
 import Status from './component/Status';
 // import Greet from './component/Greet';
@@ -25,6 +27,8 @@ function App() {
       <Oscar>
         <Heading>Oscar goes to Leonardo Dicaprio!</Heading>
       </Oscar>
+      <Button handleClick={(event) => { console.log(event)}}/>
+      <Input handleChange={(event) => {console.log(event)}} value={''} />
     </div>
   );
 }
