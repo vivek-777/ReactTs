@@ -1,6 +1,7 @@
 import './App.css';
+import Counter from './component/state/Counter';
 // import Style from './component/Style';
-import User from './component/state/User';
+// import User from './component/state/User';
 // import Heading from './component/Heading';
 // import { Button } from './component/Button';
 // import { Input } from './component/Input';
@@ -32,7 +33,8 @@ function App() {
       {/* <Button handleClick={(event) => { console.log(event)}}/>
       <Input handleChange={(event) => {console.log(event)}} value={''} /> */}
       {/* <Style style={{border:'1px solid blue', padding: '1rem'}}/> */}
-      <User />
+      {/* <User /> */}
+      <Counter />
     </div>
   );
 }
