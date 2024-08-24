@@ -1,4 +1,6 @@
 import './App.css';
+import { Box } from './component/context/Box';
+import { ThemeContextProvider } from './component/context/ThemeContext';
 import Counter from './component/state/Counter';
 // import Style from './component/Style';
 // import User from './component/state/User';
@@ -34,7 +36,10 @@ function App() {
       <Input handleChange={(event) => {console.log(event)}} value={''} /> */}
       {/* <Style style={{border:'1px solid blue', padding: '1rem'}}/> */}
       {/* <User /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <ThemeContextProvider>
+        <Box />
+      </ThemeContextProvider>
     </div>
   );
 }
