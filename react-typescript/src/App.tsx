@@ -1,7 +1,9 @@
 import './App.css';
-import { Box } from './component/context/Box';
-import { ThemeContextProvider } from './component/context/ThemeContext';
-import Counter from './component/state/Counter';
+// import { Box } from './component/context/Box';
+// import { ThemeContextProvider } from './component/context/ThemeContext';
+import { User } from './component/context/User';
+import { UserContextProvider } from './component/context/UserContext';
+// import Counter from './component/state/Counter';
 // import Style from './component/Style';
 // import User from './component/state/User';
 // import Heading from './component/Heading';
@@ -37,9 +39,12 @@ function App() {
       {/* <Style style={{border:'1px solid blue', padding: '1rem'}}/> */}
       {/* <User /> */}
       {/* <Counter /> */}
-      <ThemeContextProvider>
+      {/* <ThemeContextProvider>
         <Box />
-      </ThemeContextProvider>
+      </ThemeContextProvider> */}
+      <UserContextProvider>
+        <User/>
+      </UserContextProvider>
     </div>
   );
 }
